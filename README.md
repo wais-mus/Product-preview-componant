@@ -1,2 +1,2 @@
 # Portfolio
-This is my web portfolio
+This is a file to make accessing my projects easier.
