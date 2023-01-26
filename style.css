@@ -67,47 +67,47 @@ p {
   line-height: 1.8;
 }
 
-.container {
+main {
  max-width: 600px;
 
 }
 
-.container h1 {
+main  h1 {
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
-.container article:first-child img {
+main  article:first-child img {
   border-radius: 1rem 1rem 0 0;
 }
 
-.container article:last-child {
+main  article:last-child {
   background-color: white;
   padding:1.5rem;
   border-radius: 0 0 1rem 1rem;
   margin-top: -1rem;
 }
 
-.container p {
+main  p {
   margin-bottom: 2rem;
 }
 
-.container ul {
+main  ul {
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
 }
 
-.container ul li:first-child {
+main  ul li:first-child {
     font-size: 2rem ;
     margin-right: 1.5rem;
 }
 
-.container ul li:last-child {
+main ul li:last-child {
     color:hsl(228, 12%, 48%)
 }
 
-.container .btn {
+main .btn {
     background-color: hsl(158, 36%, 37%);
     color: white;
     font-weight: 700 ;
@@ -124,34 +124,34 @@ p {
     justify-content: center;
 }
 
-.container .btn:hover {
+main .btn:hover {
     background-color: hsl(157, 37%, 24%) ;
 }
 
-.container .btn img {
+main .btn img {
 margin-right: 0.5rem;
 }
 
-.attribution { 
+footer { 
     font-size: 14px;
     text-align: center; 
     margin-top: 2rem;
 }
-.attribution a {
+footer a {
     color: hsl(228, 45%, 44%); 
 }
 
 @media (min-width: 640px) {
-  .container {
+  main {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.container article:first-child img {
+main article:first-child img {
   border-radius: 0.625rem 0 0 0.625rem;
   width: 100%;
 }
-.container article:last-child {
+main article:last-child {
     border-radius: 0 0.625rem 0.625rem 0;
     margin-top: 0;
     padding: 1.5rem 1.5rem 0;
@@ -161,8 +161,8 @@ picture img {
     height: 100%;
 }
 
-.container p {
+main p {
     margin-bottom: 1rem;
 }
 }
-/*finished*./
+
